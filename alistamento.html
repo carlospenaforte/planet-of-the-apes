@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width= device-width, initial-scale= 1.0">
+        <link rel="icon" href="img/194199.png">
+        <link rel="stylesheet" href="styles.css" type="text/css">
+        <title>Alistamento</title>
+    </head>
+    <body>
+        <header id="blog">
+            <h1>Alistamento na Savana</h1>
+            <nav>
+                <ul id="lista">
+                    <li>
+                        <a href="c:\Users\pessoal\Desktop\macacos_papudos/home.html">Página Inicial</a>
+                    </li>
+                    <li>
+                        <a href="c:\Users\pessoal\Desktop\macacos_papudos/conflitos.html">Veja nossos conflitos</a>
+                    </li>
+                    <li>
+                        <a href="#formulario">Inscreva-se aqui</a>
+                    </li>
+                </ul>
+            </nav>
+            <figure>
+                <img src="img/Planeta-dos-Macacos-O-Confronto.jpg" alt="Imagem de macaco com arma em um cavalo convocando outros macacos">
+            </figure>
+        </header>
+        <hr>
+        <main>
+            <article id="formulario">
+                <h2>-Formulário-</h2>
+                <p>Preencha seus dados abaixo e uma carta com a localização do recrutamento chegará em seu e-mail.</p>
+            </article>
+            <form action="">
+                <fieldset>
+                    <legend><strong> Informações: </strong></legend>
+                    <p>
+                    <label for="nome">Nome:</label>
+                    <input type="text" type="nome" id="nome" placeholder="john" required autofocus>
+                    </p>
+                    <p>
+                    <label for="idade">Idade:</label>
+                    <input type="number" name="idade" id="idade" placeholder="11" min="11" max="40" required>
+                    </p>
+                    <p>Tem experiência com guerras?</p>
+                    <p>
+                        <input type="radio" name="xps" id="xps">
+                        <label for="xps">Sim</label>
+                    </p>
+                    <p>
+                        <input type="radio" name="xpn" id="xpn">
+                        <label for="xpn">Não</label>
+                    </p>
+                    <p>Selecione seus estilos de arma(Quantas quiser):</p>
+                    <p>
+                        <input type="checkbox" name="luta" id="luta">
+                        <label for="luta">luta</label>
+                    </p>
+                    <p>
+                        <input type="checkbox" name="arma_branca" id="arma_branca">
+                        <label for="arma_branca">Arma Branca</label>
+                    </p>
+                    <p>
+                        <input type="checkbox" name="pistola" id="pistola">
+                        <label for="pistola">Pistola</label>
+                    </p>
+                    <p>
+                        <input type="checkbox" name="fuzil" id="fuzil">
+                        <label for="fuzil">Fuzil</label>
+                    </p>
+                    <p>
+                        <input type="checkbox" name="sniper" id="sniper">
+                        <label for="sniper">Sniper</label>
+                    </p>
+                    <p>
+                        <label for="email">Preencha seu e-mail:</label>
+                        <input type="email" name="email" id="email" placeholder="cesar@gmail.com" required autofocus>
+                    </p>
+                </fieldset>
+                <fieldset>
+                    <legend>Sua foto 3x4 e um relato pessoal.</legend>
+                    <p>Anexe sua foto 3x4:</p>
+                    <input type="file" name="foto" id="foto" required>
+                    <p>
+                    <label for="relato">
+                        Descreva abaxio dois relatos pessoais, uma história de uma situação de confronto e uma outra história em que o confronto foi evitado por uma negociação estratégica ou psicologica. 
+                        Detalhe como começou, o desenrolar e o desfecho das duas situações.
+                    </label> 
+                    </p>    
+                    <textarea name="relato" id="relato" cols="40" rows="20" required placeholder="escreva aqui"></textarea> 
+                </fieldset>
+                <br>
+                <button type="submit">ENVIAR</button>
+                <button type="reset">RESET</button>
+            </form> 
+        </main>
+    </body>
+
+    <footer>
+        <p>&copy; Copyright Holding Monkey Tabacarias & Tecnologias </p>
+    </footer>
